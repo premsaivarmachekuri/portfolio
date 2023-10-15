@@ -38,36 +38,88 @@ const Frameworks = [
 
 const Languages = [
     {
-        name: 'React',
-        url: 'https://www.svgrepo.com/show/452092/react.svg'
+        name: 'C',
+        url: 'https://img.icons8.com/?size=256&id=40670&format=png'
     },
     {
-        name: 'Express js',
-        url: 'https://www.svgrepo.com/show/330398/express.svg'
+        name: 'Python',
+        url: 'https://www.svgrepo.com/show/452091/python.svg'
     },
     {
-        name: 'Node js',
-        url: 'https://www.svgrepo.com/show/452075/node-js.svg'
+        name: 'C++',
+        url: 'https://img.icons8.com/?size=256&id=40669&format=png'
     },
     {
-        name: 'Mongo DB',
-        url: 'https://www.svgrepo.com/show/331488/mongodb.svg'
+        name: 'HTML',
+        url: 'https://img.icons8.com/?size=256&id=20909&format=png'
     },
     {
-        name: 'Tailwind CSS',
-        url: 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg'
+        name: 'CSS',
+        url: 'https://www.svgrepo.com/show/452185/css-3.svg'
     },
     {
-        name: 'Bootstrap',
-        url: 'https://www.svgrepo.com/show/353498/bootstrap.svg'
+        name: 'JavaScript',
+        url: 'https://img.icons8.com/?size=256&id=108784&format=png'
     },
     {
-        name: 'My SQL',
-        url: 'https://www.svgrepo.com/show/373848/mysql.svg'
+        name: 'Bash',
+        url: 'https://www.svgrepo.com/show/353478/bash-icon.svg'
     },
     {
-        name: 'Numpy',
-        url: 'https://www.svgrepo.com/show/373938/numpy.svg'
+        name: 'Java',
+        url: 'https://www.svgrepo.com/show/452234/java.svg'
+    }
+
+]
+
+const Tools = [
+    {
+        name: 'git',
+        url: 'https://img.icons8.com/?size=48&id=20906&format=png'
+    },
+    {
+        name: 'Github',
+        url: 'https://www.svgrepo.com/show/512317/github-142.svg'
+    },
+    {
+        name: 'Figma',
+        url: 'https://www.svgrepo.com/show/448222/figma.svg'
+    },
+    {
+        name: 'Canva',
+        url: 'https://img.icons8.com/?size=48&id=iWw83PVcBpLw&format=png'
+    },
+    {
+        name: 'ChatGPT',
+        url: 'https://img.icons8.com/?size=64&id=TlnNBAQWZ6Vv&format=png'
+    },
+    {
+        name: 'Google Bard',
+        url: 'https://img.icons8.com/?size=48&id=17949&format=png'
+    },
+    {
+        name: 'Google Cloud',
+        url: 'https://img.icons8.com/?size=48&id=WHRLQdbEXQ16&format=png'
+    },
+    {
+        name: 'Visual Studio',
+        url: 'https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png'
+    },
+    {
+        name: 'Docker',
+        url: 'https://img.icons8.com/?size=48&id=22813&format=png'
+    },
+    {
+        name: 'Postman',
+        url: 'https://img.icons8.com/?size=80&id=EPbEfEa7o8CB&format=png'
+    },
+    {
+        name: 'Materail UI',
+        url: 'https://www.svgrepo.com/show/354048/material-ui.svg'
+    },
+    {
+        name: 'Notion',
+        url: 'https://img.icons8.com/?size=50&id=nvtEH6DpqruC&format=png'
     }
 
 ]
@@ -75,11 +127,11 @@ const Languages = [
 const Skills = () => {
 
     return (
-        <div className="h-[50vh] bg-[#0B113A] ">
+        <div className="h-full bg-[#0B113A] ">
             <h1 className="text-5xl text-center py-3">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
             <div>
-            <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Frameworks</h2>
+            <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Languages</h2>
             <ul className="grid grid-cols-4">
             {Languages.map(lang => <SkillComp details={lang} />)}
             </ul>
@@ -87,13 +139,13 @@ const Skills = () => {
             <div>
             <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Frameworks</h2>
             <ul className="grid grid-cols-4">
-            {Languages.map(lang => <SkillComp details={lang} />)}
+            {Frameworks.map(lang => <SkillComp details={lang} />)}
             </ul>
             </div>
             <div>
-            <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Frameworks</h2>
+            <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Tools</h2>
             <ul className="grid grid-cols-4">
-            {Languages.map(lang => <SkillComp details={lang} />)}
+            {Tools.map(lang => <SkillComp details={lang} />)}
             </ul>
             </div>
             </div>
