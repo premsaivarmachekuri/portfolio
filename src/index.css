@@ -1,7 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-*{
-  /* border:1px red solid; */
+
+
+/* Your custom styles can go here */
+* {
+  /* border: 1px red solid; */
 }

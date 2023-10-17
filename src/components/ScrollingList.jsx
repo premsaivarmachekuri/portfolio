@@ -1,33 +1,43 @@
-import React, { useState, useEffect } from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
+import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/react-splide/css/sea-green';
+import '@splidejs/react-splide/css/core';
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+
+
 
 const ScrollingList = () => {
-  const [items, setItems] = useState(['This', 'Is', 'Awesome', '!!!']);
-  const [stop, setStop] = useState(false);
-
-  const interval = 2000; // time between items' change
-
-  useEffect(() => {
-    const timer = setInterval(change, interval);
-    return () => clearInterval(timer);
-  }, []);
-
-  const change = () => {
-    if (stop) return;
-    const itemToMove = items.shift();
-    setItems((prevItems) => [...prevItems, itemToMove]);
-  };
-
+    const options = {
+        type   : 'loop',
+        drag   : 'free',
+        focus  : 'center',
+        perPage: 3,
+        autoScroll: {
+          speed: 1,
+        },
+      };
   return (
-    <ul className="w-300 h-500 overflow-hidden border-2 border-red-500 m-auto">
-      {items.map((item, index) => (
-        <li
-          key={index}
-          className="transition-transform transition-opacity duration-500 ease-in-out block m-4 h-492 text-center line-500 text-black bg-red-200"
-        >
-          {item}
-        </li>
-      ))}
-    </ul>
+    <Splide
+      aria-label="My Favorite Images"
+      options={ options }
+    >
+      <SplideSlide>
+        <img src="https://www.svgrepo.com/show/452092/react.svg" alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="https://www.svgrepo.com/show/452092/react.svg" alt="Image 2"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="https://www.svgrepo.com/show/452092/react.svg" alt="Image 3"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="https://www.svgrepo.com/show/452092/react.svg" alt="Image 4"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="https://www.svgrepo.com/show/452092/react.svg" alt="Image 5"/>
+      </SplideSlide>
+    </Splide>
   );
 };
 
