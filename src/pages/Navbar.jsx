@@ -1,6 +1,7 @@
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 bg-[#090E34]">
+        <div className="w-full md:fixed top-0 z-10">
+                  <div className="navbar bg-base-100 bg-blue-800 text-white">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -18,7 +19,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a className="btn btn-ghost normal-case text-xl">PREMSAI VARMA</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -36,9 +37,21 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+  <a href="https://www.linkedin.com/in/premsaivarma/" target="_blank" rel="noopener noreferrer" className="border-0">
+      <button  className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-blue-500 hover:b-black focus:text-accent focus:border-accent border-slate-400  2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+      <i className="fab fa-linkedin mr-2 fa-2x"></i>
+      <span className='my-auto text-lg hidden md:block'>Linkedin</span>
+    </button>
+    </a>
+  <a href="https://github.com/premsaivarmachekuri" target="_blank" rel="noopener noreferrer" className="border-0">
+      <button  className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-accent border-slate-400  2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+      <i className="fab fa-github mr-2 fa-2x"></i>
+      <span className='my-auto text-lg hidden md:block'>Github</span>
+    </button>
+    </a>
   </div>
 </div>
+        </div>
     )
 }
 
