@@ -6,7 +6,7 @@ import Cards from './pages/Cards/Card'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import More from './pages/More'
-import ScrollingList from './components/ScrollingList'
+import ScrollToTop from './components/ScrollToTop'
 // import LineChart from './components/Chart'
 
 function App() {
@@ -20,10 +20,10 @@ function App() {
       <Skills />
       <Projects />
       <More />
-      <ScrollingList />
       {/* <LineChart /> */}
       {/* <Cards /> */}
       {/* <Cards /> */}
+      <ScrollToTop />
     </>
   )
 }

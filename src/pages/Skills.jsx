@@ -127,22 +127,22 @@ const Tools = [
 const Skills = () => {
 
     return (
-        <div className="h-full bg-[#0B113A] ">
-            <h1 className="text-5xl text-center py-3">Skills</h1>
+        <div className="h-full bg-[#0B113A] md:px-20">
+            <h1 className="pt-5 text-5xl text-blue-500 text-center py-10">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-            <div>
+            <div  data-aos="fade-left">
             <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Languages</h2>
             <ul className="grid grid-cols-4">
             {Languages.map(lang => <SkillComp details={lang} />)}
             </ul>
             </div>
-            <div>
+            <div  data-aos="fade-right">
             <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Frameworks</h2>
             <ul className="grid grid-cols-4">
             {Frameworks.map(lang => <SkillComp details={lang} />)}
             </ul>
             </div>
-            <div>
+            <div  data-aos="fade-left">
             <h2 className="px-10 text-2xl text-red-300  from-red-600 via-green-600 via-yellow-500 to-blue-600">Tools</h2>
             <ul className="grid grid-cols-4">
             {Tools.map(lang => <SkillComp details={lang} />)}

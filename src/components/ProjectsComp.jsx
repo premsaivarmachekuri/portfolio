@@ -5,7 +5,8 @@ const ProjectComp = (props) => {
 
 
     return (
-        <div className="text-center space-y-2 my-10 m-auto min-w-[250px] max-w-[300px] w-[100%] rounded-md hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+        <div  data-aos="fade-up"
+        data-aos-anchor-placement="top-center" className="text-center space-y-2 my-10 m-auto min-w-[250px] max-w-[300px] w-[100%] rounded-md hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
             <img src={url} className="w-[100%] text-center h-60  rounded-md" />
             <h1 className="text-blue-400 text-2xl">{heading}</h1>
             <p className="text-gray-300">{desc}</p>
