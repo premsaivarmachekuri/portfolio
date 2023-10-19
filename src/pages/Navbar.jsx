@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`w-full ${isNavbarFixed ? 'fixed top-[-1%] z-10' : ''}`}>
+    <div className={`w-full ${isNavbarFixed ? 'fixed top-0 z-10' : ''}`}>
       <div className="navbar bg-base-100 bg-blue-800 text-white">
         <div className="navbar-start">
           <div className="dropdown">
@@ -60,18 +60,11 @@ const Navbar = () => {
           <a className="btn btn-ghost normal-case text-xl">PREMSAI VARMA</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li tabIndex={0}>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a>Item 3</a></li>
+          <ul className="menu menu-horizontal px-1 space-x-3 text-lg cursor-pointer">
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>More</li>
+            <li>Conteact Me</li>
           </ul>
         </div>
         <div className="navbar-end">

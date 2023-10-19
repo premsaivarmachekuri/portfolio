@@ -61,8 +61,8 @@ const Header = () => {
 </button>
 
         </div>
-        <div className="w-full m-auto text-center my-5" data-aos="fade-left">
-          <img src="./src/assets/profile.jpeg" alt="Profile" className="rounded-xl w-[400px] m-auto" />
+        <div className="w-full m-auto text-center my-" data-aos="fade-left">
+          <img src="./src/assets/profile.jpeg" alt="Profile" className="border-0 shadow-green-500 relative rounded-2xl shadow-2xl drop-shadow-2xl p-4 w-[400px] m-auto" />
         </div>
       </div>
     </div>

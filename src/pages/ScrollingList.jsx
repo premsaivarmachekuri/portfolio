@@ -65,6 +65,24 @@ const event = [
     tags:["fun", "github", "volunteer", "community", "game"],
     link: "https://www.linkedin.com/posts/premsaivarma_github-community-students-activity-7011329127752359936-AY8Z?utm_source=share&utm_medium=member_desktop"
   },
+  {
+    img: "https://media.licdn.com/dms/image/C5622AQHl1WEKPRTKnQ/feedshare-shrink_800/0/1671371785008?e=1700697600&v=beta&t=966TAnVEw33Qc_zWvYZTgZtbgWxvq3gC6ChArT-R7xk",
+    name:"Gitam Homecoming",
+    tags:["softskills", "gitam", "volunteer", "event", "networking"],
+    link: "https://www.linkedin.com/posts/premsaivarma_innovative-technologies-innovation-activity-7010241375224946688-oToO?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C5622AQFlj1auc6_RyQ/feedshare-shrink_2048_1536/0/1668320645447?e=1700697600&v=beta&t=QFW8HsuMlYYf6qEJr8iDO0DRdANyVuGYP0dZ3qTNjxU",
+    name:"Google Devfest",
+    tags:["technology", "gdgvizag", "networking", "community", "fest"],
+    link: "https://www.linkedin.com/posts/premsaivarma_technology-success-gdgvizag-activity-6997443872859578368-NjFq?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C5622AQHa8lMQtAFB1Q/feedshare-shrink_800/0/1665809804844?e=1700697600&v=beta&t=YhaYtppOkkBtXFFU-ah9KtOqezP3A4nsPfgMfuie4yg",
+    name:"GDSC Compose Camp",
+    tags:["gdsc", "composecamp", "google", "community", "event"],
+    link: "https://www.linkedin.com/posts/premsaivarma_google-gdsc-composecampindia-activity-6986912731358535680-tfbJ?utm_source=share&utm_medium=member_desktop"
+  },
 
 ]
 
@@ -81,7 +99,7 @@ const ScrollingList = () => {
           xl:3 // 3 slides per page on large screens
         },
         autoScroll: {
-          speed: -1,
+          speed: 1,
         },
         autoplay: 'play'
       };
