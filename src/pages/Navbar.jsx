@@ -44,30 +44,29 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  bg-blue-700"
             >
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+          <ul className="menu menu-horizontal px-1 space-x-3 text-lg cursor-pointer flex flex-col space-y-3">
+            <a href='#aboutSection'><li>About Me</li></a>
+            <a href='#skillSection'><li>Skills</li></a>
+            <a href='#projectSection'><li>Projects</li></a>
+            <a href='#moreSection'><li>More</li></a>
+            <a href="#contactSections"><li>Contact Me</li></a>
+          </ul>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">PREMSAI VARMA</a>
+          <a className="btn btn-ghost normal-case text-2xl">PREMSAI VARMA</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 space-x-3 text-lg cursor-pointer">
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>More</li>
-            <li>Conteact Me</li>
+          <ul className="menu menu-horizontal px-1 space-x-5 text-lg cursor-pointer">
+            <a href='#aboutSection'><li>About Me</li></a>
+            <a href='#skillSection'><li>Skills</li></a>
+            <a href='#projectSection'><li>Projects</li></a>
+            <a href='#moreSection'><li>More</li></a>
+            <a href="#contactSections"><li>Contact Me</li></a>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end px-5">
           <a
             href="https://www.linkedin.com/in/premsaivarma/"
             target="_blank"

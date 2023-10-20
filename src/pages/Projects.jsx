@@ -78,7 +78,7 @@ const Projects = () => {
 
 
     return (
-        <div className="bg-[#090E34] py-10 px-16 h-full">
+        <div className="bg-[#090E34] py-20 px-16 w-full" id="projectSection">
             <h1 className="pt-5 text-5xl text-blue-500 text-center py-5">Projects</h1>
             <div className="grid grid-col-1  md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
             {ProjectsList.map(pro => <ProjectComp details={pro} />)}
