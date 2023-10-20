@@ -16,7 +16,7 @@ const About = () => {
                 {renderEmojiItem("⚡", "I am eager to continue learning, growing, and contributing to my role. I am excited to see what the future holds and I am confident that my skills and passion for development will continue to thrive.")}
                 </div>
 
-               <img src="./src/assets/animation_lnud3ndz_medium.gif" data-aos="fade-up-left" className="m-auto order-last md:order-first w-[350px]  w-max-sm rounded-full my-3" alt="Developer" />
+               <img src="./src/assets/animation_lnud3ndz_medium.gif" data-aos="fade-up-left" className="m-auto order-last md:order-first w-[350px]  w-max-sm rounded-full my-4" alt="Developer" />
             </div>
             
         </div>

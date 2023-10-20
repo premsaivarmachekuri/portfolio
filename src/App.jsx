@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='h-screen w-screen'>
       <Navbar/>
       <Header />
       <About />
@@ -24,7 +24,7 @@ function App() {
       {/* <Cards /> */}
       {/* <Cards /> */}
       <ScrollToTop />
-    </>
+    </div>
   )
 }
 

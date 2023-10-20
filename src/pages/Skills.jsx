@@ -3,35 +3,35 @@ import SkillComp from "../components/SkillComp"
 const Frameworks = [
     {
         name: 'React',
-        url: 'https://www.svgrepo.com/show/452092/react.svg'
+        url: './src/assets/skills/frameworks/react.svg'
     },
     {
         name: 'Express js',
-        url: 'https://www.svgrepo.com/show/330398/express.svg'
+        url: './src/assets/skills/frameworks/express.svg'
     },
     {
         name: 'Node js',
-        url: 'https://www.svgrepo.com/show/452075/node-js.svg'
+        url: './src/assets/skills/frameworks/node-js.svg'
     },
     {
         name: 'Mongo DB',
-        url: 'https://www.svgrepo.com/show/331488/mongodb.svg'
+        url: './src/assets/skills/frameworks/mongodb.svg'
     },
     {
         name: 'Tailwind CSS',
-        url: 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg'
+        url: './src/assets/skills/frameworks/tailwindcss-icon.svg'
     },
     {
         name: 'Bootstrap',
-        url: 'https://www.svgrepo.com/show/353498/bootstrap.svg'
+        url: './src/assets/skills/frameworks/bootstrap.svg'
     },
     {
         name: 'My SQL',
-        url: 'https://www.svgrepo.com/show/373848/mysql.svg'
+        url: './src/assets/skills/frameworks/mysql.svg'
     },
     {
         name: 'Numpy',
-        url: 'https://www.svgrepo.com/show/373938/numpy.svg'
+        url: './src/assets/skills/frameworks/numpy.svg'
     }
 
 ]
@@ -39,35 +39,35 @@ const Frameworks = [
 const Languages = [
     {
         name: 'C',
-        url: 'https://img.icons8.com/?size=256&id=40670&format=png'
+        url: './src/assets/skills/languages/c.png'
     },
     {
         name: 'Python',
-        url: 'https://www.svgrepo.com/show/452091/python.svg'
+        url: './src/assets/skills/languages/python.svg'
     },
     {
         name: 'C++',
-        url: 'https://img.icons8.com/?size=256&id=40669&format=png'
+        url: './src/assets/skills/languages/c++.png'
     },
     {
         name: 'HTML',
-        url: 'https://img.icons8.com/?size=256&id=20909&format=png'
+        url: './src/assets/skills/languages/html.png'
     },
     {
         name: 'CSS',
-        url: 'https://www.svgrepo.com/show/452185/css-3.svg'
+        url: './src/assets/skills/languages/css.svg'
     },
     {
         name: 'JavaScript',
-        url: 'https://img.icons8.com/?size=256&id=108784&format=png'
+        url: './src/assets/skills/languages/js.png'
     },
     {
         name: 'Bash',
-        url: 'https://www.svgrepo.com/show/353478/bash-icon.svg'
+        url: './src/assets/skills/languages/bash.svg'
     },
     {
         name: 'Java',
-        url: 'https://www.svgrepo.com/show/452234/java.svg'
+        url: './src/assets/skills/languages/java.svg'
     }
 
 ]
@@ -75,39 +75,39 @@ const Languages = [
 const Tools = [
     {
         name: 'git',
-        url: 'https://img.icons8.com/?size=48&id=20906&format=png'
+        url: './src/assets/skills/tools/git.png'
     },
     {
         name: 'Github',
-        url: 'https://www.svgrepo.com/show/512317/github-142.svg'
+        url: './src/assets/skills/tools/git.png'
     },
     {
         name: 'Figma',
-        url: 'https://www.svgrepo.com/show/448222/figma.svg'
+        url: './src/assets/skills/tools/figma.svg'
     },
     {
         name: 'Canva',
-        url: 'https://img.icons8.com/?size=48&id=iWw83PVcBpLw&format=png'
+        url: './src/assets/skills/tools/canva.png'
     },
     {
         name: 'ChatGPT',
-        url: 'https://img.icons8.com/?size=64&id=TlnNBAQWZ6Vv&format=png'
+        url: './src/assets/skills/tools/chatgpt.png'
     },
     {
         name: 'Google Bard',
-        url: 'https://img.icons8.com/?size=48&id=17949&format=png'
+        url: './src/assets/skills/tools/bard.png'
     },
     {
         name: 'Google Cloud',
-        url: 'https://img.icons8.com/?size=48&id=WHRLQdbEXQ16&format=png'
+        url: '/src/assets/skills/tools/cloud.png'
     },
     {
         name: 'Visual Studio',
-        url: 'https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png'
+        url: './src/assets/skills/tools/vs.png'
     },
     {
         name: 'Docker',
-        url: 'https://img.icons8.com/?size=48&id=22813&format=png'
+        url: './src/assets/skills/tools/docker.png'
     },
     {
         name: 'Postman',
@@ -115,11 +115,11 @@ const Tools = [
     },
     {
         name: 'Materail UI',
-        url: 'https://www.svgrepo.com/show/354048/material-ui.svg'
+        url: './src/assets/skills/tools/material-ui.svg'
     },
     {
         name: 'Notion',
-        url: 'https://img.icons8.com/?size=50&id=nvtEH6DpqruC&format=png'
+        url: './src/assets/skills/tools/notion.png'
     }
 
 ]

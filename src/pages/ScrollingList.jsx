@@ -7,81 +7,87 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import SlideCard from '../components/ScrollCard';
 const event = [
   {
-    img: "https://media.licdn.com/dms/image/D5622AQEFXUpHtdyOog/feedshare-shrink_2048_1536/0/1697452206050?e=1700697600&v=beta&t=KuX_r7_fHDGtQyTntKAacn2SSrT-2O53pzGSR35-41E",
+    img: "./src/assets/events/1.jpeg",
     name:"Startup Success Days",
     tags:["innovation", "gdgvizag", "startups", "community", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_google-future-technology-activity-7119630618073731072-UDma?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQFXwhFhK4yhmg/feedshare-shrink_800/0/1694264355394?e=1700697600&v=beta&t=5UViPtz0WsDD9y0J85V7K7iEGFgiS6RFvBz2Cupww0M",
+    img:"./src/assets/events/2.jpeg",
     name:"Github Fullstack Dev Roadmap",
     tags:["technology", "github", "speaker", "community", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_technology-innovation-future-ugcPost-7106259777491537920-lTOf?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQHjVgweFM4H1w/feedshare-shrink_1280/0/1691325429150?e=1700697600&v=beta&t=7G1_tKIh2Qkpx84bFX4GRGlYRYaKe7Ytl5iMISsK_Mw",
+    img:"./src/assets/events/3.jpeg",
     name:"Goolge I/O",
     tags:["innovation", "gdgvizag", "technology", "community", "google"],
     link: "https://www.linkedin.com/posts/premsaivarma_google-future-technology-activity-7093933026509811712-gAnM?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQHU5fZtOkGBxg/feedshare-shrink_800/0/1687349651919?e=1700697600&v=beta&t=bUS4Urip6HTs69tqTNmtXi21MwyMbHnfcUpsgbv0qEE",
+    img:"./src/assets/events/4.jpeg",
     name:"CXR Hackathon",
     tags:["technology", "cxrgitam", "arvr", "research", "hackathon"],
     link: "https://www.linkedin.com/posts/premsaivarma_technology-innovation-future-activity-7077257432267165697-Uq8X?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQEBQdllAtE-zg/feedshare-shrink_2048_1536/0/1682338913688?e=1700697600&v=beta&t=yWGAQJZ1GVIM47x_u7a3D-UVznS6b1GTHkcnzURhA6A",
+    img:"./src/assets/events/5.jpeg",
     name:"Selection of Cloud Platform",
     tags:["cloud", "gitam", "speaker", "google", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_microsoft-azure-amazon-activity-7056240843417911298-Yz_G?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQF5lvad2puzpw/feedshare-shrink_2048_1536/0/1680434195276?e=1700697600&v=beta&t=BpVMRpI6b0Cb-u9PqyeID8O9ufkz4pVlc-HPYOw4igE",
+    img:"./src/assets/events/6.jpeg",
     name:"WTM IWD",
     tags:["innovation", "wtmvizag", "technology", "community", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_experiences-knowledge-health-activity-7048251956619857920-wm4f?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQFbq-qn23hQZw/feedshare-shrink_800/0/1680277016729?e=1700697600&v=beta&t=huOAlqRUSuSF5LF6wF0jfpYjArC7xbximAO4E3CMut0",
+    img:"./src/assets/events/7.jpeg",
     name:"Hack the Hackers",
     tags:["innovation", "acmgitam", "cybersecurity", "community", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_technology-future-education-activity-7047592619677257729-8ldc?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/D5622AQHLmxGvWC1RsA/feedshare-shrink_800/0/1679746059980?e=1700697600&v=beta&t=zH56jvSg7tUpy7CFZwaZ9GiRoJW3pG8_4HpMsPzGPlU",
+    img:"./src/assets/events/8.jpeg",
     name:"GDSC WOW",
     tags:["technology", "gdsc", "gitam", "community", "fest"],
     link: "https://www.linkedin.com/posts/premsaivarma_success-google-gdsc-activity-7045365628597112832--vPM?utm_source=share&utm_medium=member_desktop"
   },  {
-    img: "https://media.licdn.com/dms/image/C5622AQHiHEI7PhYKfg/feedshare-shrink_800/0/1678465044671?e=1700697600&v=beta&t=bir24nrFswNj9sZ09sJd54b1ZUOQ7wsEA-oPafJ9Xm4",
+    img:"./src/assets/events/9.jpeg",
     name:"Introduction to Opensource",
     tags:["github", "acm", "opensource", "community", "developer"],
     link: "https://www.linkedin.com/posts/premsaivarma_future-opensource-technology-activity-7039992671150501888-XqgY?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/C5622AQEY15fgE7ajwg/feedshare-shrink_800/0/1671631125710?e=1700697600&v=beta&t=ePHjfPfORykMEyTOeitWEbsakmGfwLWYveLhTAYT1ko",
+    img:"./src/assets/events/10.jpeg",
     name:"Treasure Hunt",
     tags:["fun", "github", "volunteer", "community", "game"],
     link: "https://www.linkedin.com/posts/premsaivarma_github-community-students-activity-7011329127752359936-AY8Z?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/C5622AQHl1WEKPRTKnQ/feedshare-shrink_800/0/1671371785008?e=1700697600&v=beta&t=966TAnVEw33Qc_zWvYZTgZtbgWxvq3gC6ChArT-R7xk",
+    img:"./src/assets/events/11.jpeg",
     name:"Gitam Homecoming",
     tags:["softskills", "gitam", "volunteer", "event", "networking"],
     link: "https://www.linkedin.com/posts/premsaivarma_innovative-technologies-innovation-activity-7010241375224946688-oToO?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/C5622AQFlj1auc6_RyQ/feedshare-shrink_2048_1536/0/1668320645447?e=1700697600&v=beta&t=QFW8HsuMlYYf6qEJr8iDO0DRdANyVuGYP0dZ3qTNjxU",
+    img:"./src/assets/events/12.jpeg",
     name:"Google Devfest",
     tags:["technology", "gdgvizag", "networking", "community", "fest"],
     link: "https://www.linkedin.com/posts/premsaivarma_technology-success-gdgvizag-activity-6997443872859578368-NjFq?utm_source=share&utm_medium=member_desktop"
   },
   {
-    img: "https://media.licdn.com/dms/image/C5622AQHa8lMQtAFB1Q/feedshare-shrink_800/0/1665809804844?e=1700697600&v=beta&t=YhaYtppOkkBtXFFU-ah9KtOqezP3A4nsPfgMfuie4yg",
+    img:"./src/assets/events/13.jpeg",
     name:"GDSC Compose Camp",
     tags:["gdsc", "composecamp", "google", "community", "event"],
     link: "https://www.linkedin.com/posts/premsaivarma_google-gdsc-composecampindia-activity-6986912731358535680-tfbJ?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    img:"./src/assets/events/14.jpeg",
+    name:"TCS Placement Drive",
+    tags:["tcs", "student", "coordinator", "gitam", "placements"],
+    link: "https://www.linkedin.com/posts/premsaivarma_gitamdeemedtobeuniversity-tcs-activity-6979112361555062787-lg7N?utm_source=share&utm_medium=member_desktop"
   },
 
 ]
