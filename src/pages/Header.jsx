@@ -46,9 +46,9 @@ const Header = () => {
     AOS.init();
   }, [])
   return (
-    <div className="h-screen bg-[#090E34]" id="homeSection">
-      <div className="h-full flex justify-center items-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto p-6 relative top-[-10%]">
+    <div className="h-screen w-screen bg-[#090E34]" id="homeSection">
+      <div className="h-full w-full flex justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto p-6 relative md:top-[-10%]">
         <div className="w-full my-auto px-5 text-center">
           <h1 className="text-white text-4xl md:text-5xl font-mono text-center pb-2">
             Hello, I am Premsai Varma{" "}
@@ -62,7 +62,7 @@ const Header = () => {
 </button>
 
         </div>
-        <div className="w-full m-auto text-center my-" data-aos="fade-left">
+        <div className="w-full m-auto text-center " data-aos="fade-left">
           <img src="./src/assets/profile.jpeg" alt="Profile" className="border-0 shadow-green-500 relative rounded-2xl shadow-2xl drop-shadow-2xl p-4 w-[450px] m-auto" />
         </div>
       </div>

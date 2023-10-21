@@ -8,7 +8,7 @@ const More = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2">
       <div className="flex flex-col  justify-center align-center space-y-7" data-aos="fade-down-left" >
       <Counter number={5900} title="Followers on Linkedin" />
-      <Counter number={100} title="Posts" />
+      <Counter number={27} title="Streak on Github" />
       <Counter number={15} title="Openource Contributions" />
       </div>
       <ScrollingList />
