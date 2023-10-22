@@ -22,8 +22,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`w-full ${isNavbarFixed ? 'fixed top-0 z-10' : ''}`}>
-      <div className="navbar bg-base-100 bg-blue-800 text-white">
+    <div className={`w-full ${isNavbarFixed ? 'fixed top-0 z-10' : 'fixed'}`}>
+      <div className="py-4 navbar bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -73,7 +73,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="border-0"
           >
-            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-blue-500 hover:b-black focus:text-accent focus:border-accent border-slate-400 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-blue-500 hover:b-black focus:text-accent focus:border-accent border-slate-400 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2 '>
               <i className="fab fa-linkedin mr-2 fa-2x"></i>
               <span className='my-auto text-lg hidden md:block'>Linkedin</span>
             </button>
