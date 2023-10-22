@@ -3,7 +3,7 @@ import ScrollingList from "./ScrollingList";
 
 const More = () => {
   return (
-    <div className="bg-[#090E34] w-full text-center space-x-2 space-y-4" id="moreSection">
+    <div className="bg-[#0B113A] w-full text-center space-x-2 space-y-4" id="moreSection">
         <h1 className="pt-5 text-5xl text-blue-500 ">More About Me</h1>
       <div className="w-full grid grid-cols-1 md:grid-cols-2">
       <div className="flex flex-col  justify-center align-center space-y-7" data-aos="fade-down-left" >

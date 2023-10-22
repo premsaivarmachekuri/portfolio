@@ -110,7 +110,7 @@ const ScrollingList = () => {
         autoplay: 'play'
       };
   return (
-    <div className=' bg-[#090E34]'>
+    <div className=' bg-[#0B113A]'>
       <Splide
       aria-label="My Favorite Images"
       options={ options } 

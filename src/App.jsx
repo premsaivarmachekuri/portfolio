@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import About from './pages/About'
 import More from './pages/More'
 import ScrollToTop from './components/ScrollToTop'
+import Footer from './pages/Footer'
 // import LineChart from './components/Chart'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       {/* <LineChart /> */}
       {/* <Cards /> */}
       {/* <Cards /> */}
+      <Footer />
       <ScrollToTop />
     </div>
   )

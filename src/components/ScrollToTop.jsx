@@ -32,7 +32,7 @@ function ScrollToTop() {
   }, []);
 
   return (
-    <div style={{ position: 'fixed', bottom: '2rem', right: '2rem' }}>
+    <div style={{ position: 'fixed', bottom: '7rem', right: '2rem' }}>
       <button
         type="button"
         onClick={scrollToTop}
