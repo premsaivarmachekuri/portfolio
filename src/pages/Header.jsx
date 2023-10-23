@@ -51,11 +51,11 @@ const Header = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto p-6 relative md:top-[-10%]">
         <div className="w-full my-auto px-5 text-center">
           <h1 className="text-white text-4xl md:text-5xl font-mono text-center pb-2">
-            Hello, I am Premsai Varma{" "}
+            Hello, I am <span className="animate-typing overflow-hidden whitespace-nowrap">Premsai Varma</span>{" "}
             <span style={styles.waveEmoji}>{emoji("👋")}</span>
           </h1>
           <p className="text-center text-lg text-gray-300">
-            I am a passionate full-stack developer who is strong in technical skills and interested in working and growing networks and communities.
+            Communinty is the best place where you can develop skills 
           </p>
           <button className=" shadow-[5px_5px_0px_0px_rgba(109,40,217)] text-blue-100 my-5 bg-blue-800 text-base px-6 py-2 rounded-2xl text-justify mx-auto md:text-left">
   Resume
