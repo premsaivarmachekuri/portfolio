@@ -3,35 +3,35 @@ import SkillComp from "../components/SkillComp"
 const Frameworks = [
     {
         name: 'React',
-        url: './public/assets/skills/frameworks/react.svg'
+        url: './assets/skills/frameworks/react.svg'
     },
     {
         name: 'Express js',
-        url: './public/assets/skills/frameworks/express.svg'
+        url: './assets/skills/frameworks/express.svg'
     },
     {
         name: 'Node js',
-        url: './public/assets/skills/frameworks/node-js.svg'
+        url: './assets/skills/frameworks/node-js.svg'
     },
     {
         name: 'Mongo DB',
-        url: './public/assets/skills/frameworks/mongodb.svg'
+        url: './assets/skills/frameworks/mongodb.svg'
     },
     {
         name: 'Tailwind CSS',
-        url: './public/assets/skills/frameworks/tailwindcss-icon.svg'
+        url: './assets/skills/frameworks/tailwindcss-icon.svg'
     },
     {
         name: 'Bootstrap',
-        url: './public/assets/skills/frameworks/bootstrap.svg'
+        url: './assets/skills/frameworks/bootstrap.svg'
     },
     {
         name: 'My SQL',
-        url: './public/assets/skills/frameworks/mysql.svg'
+        url: './assets/skills/frameworks/mysql.svg'
     },
     {
         name: 'Numpy',
-        url: './public/assets/skills/frameworks/numpy.svg'
+        url: './assets/skills/frameworks/numpy.svg'
     }
 
 ]
@@ -39,35 +39,35 @@ const Frameworks = [
 const Languages = [
     {
         name: 'C',
-        url: './public/assets/skills/languages/c.png'
+        url: './assets/skills/languages/c.png'
     },
     {
         name: 'Python',
-        url: './public/assets/skills/languages/python.svg'
+        url: './assets/skills/languages/python.svg'
     },
     {
         name: 'C++',
-        url: './public/assets/skills/languages/c++.png'
+        url: './assets/skills/languages/c++.png'
     },
     {
         name: 'HTML',
-        url: './public/assets/skills/languages/html.png'
+        url: './assets/skills/languages/html.png'
     },
     {
         name: 'CSS',
-        url: './public/assets/skills/languages/css.svg'
+        url: './assets/skills/languages/css.svg'
     },
     {
         name: 'JavaScript',
-        url: './public/assets/skills/languages/js.png'
+        url: './assets/skills/languages/js.png'
     },
     {
         name: 'Bash',
-        url: './public/assets/skills/languages/bash.svg'
+        url: './assets/skills/languages/bash.svg'
     },
     {
         name: 'Java',
-        url: './public/assets/skills/languages/java.svg'
+        url: './assets/skills/languages/java.svg'
     }
 
 ]
@@ -75,39 +75,39 @@ const Languages = [
 const Tools = [
     {
         name: 'git',
-        url: './public/assets/skills/tools/git.png'
+        url: './assets/skills/tools/git.png'
     },
     {
         name: 'Github',
-        url: './public/assets/skills/tools/git.png'
+        url: './assets/skills/tools/git.png'
     },
     {
         name: 'Figma',
-        url: './public/assets/skills/tools/figma.svg'
+        url: './assets/skills/tools/figma.svg'
     },
     {
         name: 'Canva',
-        url: './public/assets/skills/tools/canva.png'
+        url: './assets/skills/tools/canva.png'
     },
     {
         name: 'ChatGPT',
-        url: './public/assets/skills/tools/chatgpt.png'
+        url: './assets/skills/tools/chatgpt.png'
     },
     {
         name: 'Google Bard',
-        url: './public/assets/skills/tools/bard.png'
+        url: './assets/skills/tools/bard.png'
     },
     {
         name: 'Google Cloud',
-        url: '/public/assets/skills/tools/cloud.png'
+        url: '/assets/skills/tools/cloud.png'
     },
     {
         name: 'Visual Studio',
-        url: './public/assets/skills/tools/vs.png'
+        url: './assets/skills/tools/vs.png'
     },
     {
         name: 'Docker',
-        url: './public/assets/skills/tools/docker.png'
+        url: './assets/skills/tools/docker.png'
     },
     {
         name: 'Postman',
@@ -115,11 +115,11 @@ const Tools = [
     },
     {
         name: 'Materail UI',
-        url: './public/assets/skills/tools/material-ui.svg'
+        url: './assets/skills/tools/material-ui.svg'
     },
     {
         name: 'Notion',
-        url: './public/assets/skills/tools/notion.png'
+        url: './assets/skills/tools/notion.png'
     }
 
 ]
