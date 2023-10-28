@@ -3,35 +3,35 @@ import SkillComp from "../components/SkillComp"
 const Frameworks = [
     {
         name: 'React',
-        url: './src/assets/skills/frameworks/react.svg'
+        url: './public/assets/skills/frameworks/react.svg'
     },
     {
         name: 'Express js',
-        url: './src/assets/skills/frameworks/express.svg'
+        url: './public/assets/skills/frameworks/express.svg'
     },
     {
         name: 'Node js',
-        url: './src/assets/skills/frameworks/node-js.svg'
+        url: './public/assets/skills/frameworks/node-js.svg'
     },
     {
         name: 'Mongo DB',
-        url: './src/assets/skills/frameworks/mongodb.svg'
+        url: './public/assets/skills/frameworks/mongodb.svg'
     },
     {
         name: 'Tailwind CSS',
-        url: './src/assets/skills/frameworks/tailwindcss-icon.svg'
+        url: './public/assets/skills/frameworks/tailwindcss-icon.svg'
     },
     {
         name: 'Bootstrap',
-        url: './src/assets/skills/frameworks/bootstrap.svg'
+        url: './public/assets/skills/frameworks/bootstrap.svg'
     },
     {
         name: 'My SQL',
-        url: './src/assets/skills/frameworks/mysql.svg'
+        url: './public/assets/skills/frameworks/mysql.svg'
     },
     {
         name: 'Numpy',
-        url: './src/assets/skills/frameworks/numpy.svg'
+        url: './public/assets/skills/frameworks/numpy.svg'
     }
 
 ]
@@ -39,35 +39,35 @@ const Frameworks = [
 const Languages = [
     {
         name: 'C',
-        url: './src/assets/skills/languages/c.png'
+        url: './public/assets/skills/languages/c.png'
     },
     {
         name: 'Python',
-        url: './src/assets/skills/languages/python.svg'
+        url: './public/assets/skills/languages/python.svg'
     },
     {
         name: 'C++',
-        url: './src/assets/skills/languages/c++.png'
+        url: './public/assets/skills/languages/c++.png'
     },
     {
         name: 'HTML',
-        url: './src/assets/skills/languages/html.png'
+        url: './public/assets/skills/languages/html.png'
     },
     {
         name: 'CSS',
-        url: './src/assets/skills/languages/css.svg'
+        url: './public/assets/skills/languages/css.svg'
     },
     {
         name: 'JavaScript',
-        url: './src/assets/skills/languages/js.png'
+        url: './public/assets/skills/languages/js.png'
     },
     {
         name: 'Bash',
-        url: './src/assets/skills/languages/bash.svg'
+        url: './public/assets/skills/languages/bash.svg'
     },
     {
         name: 'Java',
-        url: './src/assets/skills/languages/java.svg'
+        url: './public/assets/skills/languages/java.svg'
     }
 
 ]
@@ -75,39 +75,39 @@ const Languages = [
 const Tools = [
     {
         name: 'git',
-        url: './src/assets/skills/tools/git.png'
+        url: './public/assets/skills/tools/git.png'
     },
     {
         name: 'Github',
-        url: './src/assets/skills/tools/git.png'
+        url: './public/assets/skills/tools/git.png'
     },
     {
         name: 'Figma',
-        url: './src/assets/skills/tools/figma.svg'
+        url: './public/assets/skills/tools/figma.svg'
     },
     {
         name: 'Canva',
-        url: './src/assets/skills/tools/canva.png'
+        url: './public/assets/skills/tools/canva.png'
     },
     {
         name: 'ChatGPT',
-        url: './src/assets/skills/tools/chatgpt.png'
+        url: './public/assets/skills/tools/chatgpt.png'
     },
     {
         name: 'Google Bard',
-        url: './src/assets/skills/tools/bard.png'
+        url: './public/assets/skills/tools/bard.png'
     },
     {
         name: 'Google Cloud',
-        url: '/src/assets/skills/tools/cloud.png'
+        url: '/public/assets/skills/tools/cloud.png'
     },
     {
         name: 'Visual Studio',
-        url: './src/assets/skills/tools/vs.png'
+        url: './public/assets/skills/tools/vs.png'
     },
     {
         name: 'Docker',
-        url: './src/assets/skills/tools/docker.png'
+        url: './public/assets/skills/tools/docker.png'
     },
     {
         name: 'Postman',
@@ -115,11 +115,11 @@ const Tools = [
     },
     {
         name: 'Materail UI',
-        url: './src/assets/skills/tools/material-ui.svg'
+        url: './public/assets/skills/tools/material-ui.svg'
     },
     {
         name: 'Notion',
-        url: './src/assets/skills/tools/notion.png'
+        url: './public/assets/skills/tools/notion.png'
     }
 
 ]
