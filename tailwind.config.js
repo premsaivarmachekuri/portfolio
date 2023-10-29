@@ -1,10 +1,9 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  plugins: [require("daisyui")],
   theme: {
     extend: {
       keyframes: {
@@ -31,4 +30,5 @@ export default {
       }
     },
   },
-}
+  plugins: [require('daisyui')],
+};
