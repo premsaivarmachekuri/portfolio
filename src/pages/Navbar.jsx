@@ -52,6 +52,7 @@ const Navbar = () => {
             <a href='#projectSection'><li>Projects</li></a>
             <a href='#moreSection'><li>More</li></a>
             <a href="#contactSections"><li>Contact Me</li></a>
+            <a href="https://medium.com/p/204fc2f0a087" target="_blank"><li>Blogs</li></a>
           </ul>
             </ul>
           </div>
@@ -64,6 +65,7 @@ const Navbar = () => {
             <a href='#projectSection'><li>Projects</li></a>
             <a href='#moreSection'><li>More</li></a>
             <a href="#contactSections"><li>Contact Me</li></a>
+            <a href="https://medium.com/p/204fc2f0a087" target="_blank"><li>Blogs</li></a>
           </ul>
         </div>
         <div className="navbar-end px-5">
@@ -73,7 +75,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="border-0"
           >
-            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-blue-500 hover:b-black focus:text-accent focus:border-accent border-slate-400 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2 '>
+            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-blue-500 hover:b-black focus:text-accent focus:border-accent border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2 '>
               <i className="fab fa-linkedin mr-2 fa-2x"></i>
               <span className='my-auto text-lg hidden md:block'>Linkedin</span>
             </button>
@@ -84,7 +86,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="border-0"
           >
-            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-accent border-slate-400 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
               <i className="fab fa-github mr-2 fa-2x"></i>
               <span className='my-auto text-lg hidden md:block'>Github</span>
             </button>

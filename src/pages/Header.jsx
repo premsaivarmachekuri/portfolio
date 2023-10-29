@@ -1,5 +1,6 @@
 import emoji from "react-easy-emoji";
 import React,{useEffect} from "react";
+import TypeWriterComp from '../components/TypeWriterComp'
 // importing aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -48,12 +49,13 @@ const Header = () => {
   return (
     <div className="h-screen w-screen bg-[#0B113A]" id="homeSection">
       <div className="h-full w-full flex justify-center items-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto p-6 relative md:top-[-10%]">
-        <div className="w-full my-auto px-5 text-center">
+      <div className="flex flex-col md:flex-row mx-auto p-6 relative md:top-[-10%] w-full max-w-screen-2xl">
+        <div className="rounded-full w-100 h-100 flex-grow md:w-50 my-auto px-5 text-center overflow-hidden">
           <h1 className="text-white text-4xl md:text-5xl font-mono text-center pb-2">
-            Hello, I am <span className="animate-typing overflow-hidden whitespace-nowrap">Premsai Varma</span>{" "}
-            <span style={styles.waveEmoji}>{emoji("👋")}</span>
+            Hello {" "}<span style={styles.waveEmoji} className="relative fixed right-0">{emoji("👋")}</span>
           </h1>
+          <h1 className="flex m-auto text-white text-4xl md:text-5xl font-mono text-center"><span  className="m-auto"><TypeWriterComp /></span>{" "}
+            </h1>
           <p className="text-center text-lg text-gray-300">
             Communinty is the best place where you can develop skills 
           </p>
@@ -62,14 +64,17 @@ const Header = () => {
 </button>
 
         </div>
-        <div className="w-full m-auto text-center " data-aos="fade-left">
+        <div className="w-100 flex-grow md:w-50 m-auto text-center md:ml-5" data-aos="fade-left">
           <img src="./assets/profile.jpeg" alt="Profile" className="border-0 shadow-green-500 relative rounded-2xl shadow-2xl drop-shadow-2xl p-4 w-[450px] m-auto" />
         </div>
       </div>
       </div>
+
       <div className="relative text-center bottom-[20%] self-end justify-self-center cursor-pointer">
       <a href="#aboutSection"><i class="fa-solid fa-angle-down text-gray-200 text-[70px] animate-bounce"></i></a>
     </div>
+
+        <p className="w-[400px] h-[400px]  bg-white"></p>
 
     </div>
   );
