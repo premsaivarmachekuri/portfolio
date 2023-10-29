@@ -22,9 +22,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`w-full fixed z-10`}>
-      <div className="w-full y-4 navbar bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
-        <div className="w-full navbar-start">
+    <div className={`w-full absolute right-0 fixed z-10 py-4 px-4`}>
+      <div className="w-full  rounded-full y-4 navbar bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
+        <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl">PREMSAI VARMA</a>
+          <a className="btn btn-ghost normal-case text-xl">PREMSAI VARMA</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-5 text-lg cursor-pointer">

@@ -25,13 +25,13 @@ const Footer = () => {
     <div className={`bg-gradient-to-r from-indigo-500 via-indigo-200 to-indigo-500 w-full bottom-0 z-10`}>
       <div className="bg-gradient-to-r from-indigo-500 text-white">
         <div className='flex items-center justify-between flex-wrap'>
-            <div className='px-16 py-8'>
+            <div className='m-auto px-16 py-8'>
                 <a href="">pchekuri@gitam.in</a>
             </div>
             <div className='m-auto justify-self-center'>
               <p className='text-xl text-center'>Made with ❤️</p>
             </div>
-            <div className="flex sm:space-x-3 md:pr-20 md:space-x-5 md:pr-30 justify-center" >
+            <div className="m-auto flex sm:space-x-3 md:pr-20 md:space-x-5 md:pr-30 justify-center" >
           <a
             href="https://www.linkedin.com/in/premsaivarma/"
             target="_blank"
