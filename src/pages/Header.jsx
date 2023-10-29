@@ -47,7 +47,7 @@ const Header = () => {
     AOS.init();
   }, [])
   return (
-    <div className="h-screen w-screen bg-[#0B113A]" id="homeSection">
+    <div className="h-screen w-full bg-[#0B113A]" id="homeSection">
       <div className="h-full w-full flex justify-center items-center">
       <div className="flex flex-col md:flex-row mx-auto p-6 relative md:top-[-10%] w-full max-w-screen-2xl">
         <div className="rounded-full w-100 h-100 flex-grow md:w-50 my-auto px-5 text-center overflow-hidden">
