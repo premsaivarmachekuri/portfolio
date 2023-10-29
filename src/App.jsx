@@ -15,6 +15,9 @@ function App() {
 
   return (
     <div>
+
+
+      <ScrollToTop />
       <Navbar />
       <Header />
       <About />
@@ -25,7 +28,6 @@ function App() {
       {/* <Cards /> */}
       {/* <Cards /> */}
       <Footer />
-      <ScrollToTop />
     </div>
   )
 }

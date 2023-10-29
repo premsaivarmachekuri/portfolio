@@ -56,7 +56,11 @@ const Navbar = () => {
           </ul>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">PREMSAI VARMA</a>
+          <div className="flex items-center my-auto">
+  <a className="btn btn-ghost normal-case text-xl xs:hidden xs:invisible mr-2">PV</a>
+  <a className="btn btn-ghost normal-case text-xl max-xs:hidden xs:visible xs:text-md md:text-2xl mr-2">PREMSAI VARMA</a>
+</div>
+
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-5 text-lg cursor-pointer">
@@ -68,14 +72,14 @@ const Navbar = () => {
             <a href="https://medium.com/p/204fc2f0a087" target="_blank"><li>Blogs</li></a>
           </ul>
         </div>
-        <div className="navbar-end px-5">
+        <div className="navbar-end md:px-5">
           <a
             href="https://www.linkedin.com/in/premsaivarma/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-0"
           >
-            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+            <button className='flex self-center mr-[10px] inline-block md:px-2 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
               <i className="fab fa-linkedin mr-2 fa-2x"></i>
               <span className='my-auto text-lg hidden md:block'>Linkedin</span>
             </button>
@@ -86,7 +90,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="border-0"
           >
-            <button className='flex self-center mr-[10px] inline-block p-3 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
+            <button className='flex self-center mr-[10px] inline-block md:px-2 py-1.5 font-mono text-md  capitalize transition-all rounded cursor-pointer hover:text-black hover:b-black focus:text-accent focus:border-4 border-indigo-500/100 2eer-checked:text-accent peer-checked:text-accent peer-checked:border-accent peer-checked:bg-accent-light sm:border-0 md:border md:border-2'>
               <i className="fab fa-github mr-2 fa-2x"></i>
               <span className='my-auto text-lg hidden md:block'>Github</span>
             </button>

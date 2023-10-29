@@ -31,7 +31,7 @@ const Footer = () => {
             <div className='m-auto justify-self-center'>
               <p className='text-xl text-center'>Made with ❤️</p>
             </div>
-            <div className="m-auto flex sm:space-x-3 md:pr-20 md:space-x-5 md:pr-30 justify-center" >
+            <div className="m-auto flex sm:space-x-2 md:pr-20 md:space-x-5 justify-center" >
           <a
             href="https://www.linkedin.com/in/premsaivarma/"
             target="_blank"

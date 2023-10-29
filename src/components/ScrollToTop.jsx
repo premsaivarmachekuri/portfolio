@@ -9,7 +9,7 @@ function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.scrollY > 300) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -32,7 +32,7 @@ function ScrollToTop() {
   }, []);
 
   return (
-    <div style={{ position: 'fixed', bottom: '7rem', right: '2rem' }}>
+    <div className='fixed bottom-5 right-5 z-10'>
       <button
         type="button"
         onClick={scrollToTop}
@@ -46,6 +46,7 @@ function ScrollToTop() {
     </div>
   );
 }
+
 
 export default ScrollToTop;
 
