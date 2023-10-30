@@ -127,7 +127,7 @@ const Tools = [
 const Skills = () => {
 
     return (
-        <div className="w-full bg-[#0B113A] md:px-20  py-20 px-16" id="skillSection">
+        <div className="w-full bg-[#0B113A] md:px-20  py-20 px:4 sm:px-16" id="skillSection">
             <h1 className="pt-5 text-5xl text-blue-500 text-center py-10">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-y-10">
             <div  data-aos="fade-left">

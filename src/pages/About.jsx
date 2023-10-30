@@ -7,7 +7,7 @@ const About = () => {
     );
 
     return (
-        <div className="w-full py-20 px-16 w-full bg-[#090E34]"  id="aboutSection">
+        <div className="w-full py-20 px-2 sm:px-8 lg:px-16 bg-[#090E34]"  id="aboutSection">
             <h1 className="pt-5 text-5xl text-blue-500 text-center py-10">About Me</h1>
             <div data-aos="fade-up-right" className="flex flex-col items-center text-blue-300 order-first lg:flex-row md:order-last md:flex justify-between">
                 <div className="w-full lg:w-[50%] space-x-0 space-y-10 text-xl">
