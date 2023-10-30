@@ -57,11 +57,15 @@ const Navbar = () => {
             </ul>
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <div className="flex items-center my-auto">
   <a className="btn btn-ghost normal-case text-xl xs:hidden xs:invisible mr-2">PV</a>
   <a className="btn btn-ghost normal-case text-xl max-xs:hidden xs:visible xs:text-md md:text-2xl mr-2">PREMSAI VARMA</a>
 </div>
 
+=======
+          <a className="btn btn-ghost normal-case text-2xl">PREMSAI VARMA</a>
+>>>>>>> parent of db0b625 (made changes for responsiveness 2 rounded nav)
 =======
           <a className="btn btn-ghost normal-case text-2xl">PREMSAI VARMA</a>
 >>>>>>> parent of db0b625 (made changes for responsiveness 2 rounded nav)

@@ -32,7 +32,11 @@ const Footer = () => {
               <p className='text-xl text-center'>Made with ❤️</p>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="m-auto flex sm:space-x-2 md:pr-20 md:space-x-5 justify-center" >
+=======
+            <div className="flex sm:space-x-3 md:pr-20 md:space-x-5 md:pr-30 justify-center" >
+>>>>>>> parent of db0b625 (made changes for responsiveness 2 rounded nav)
 =======
             <div className="flex sm:space-x-3 md:pr-20 md:space-x-5 md:pr-30 justify-center" >
 >>>>>>> parent of db0b625 (made changes for responsiveness 2 rounded nav)
