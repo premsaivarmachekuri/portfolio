@@ -25,7 +25,7 @@ const Footer = () => {
     <div className={`bg-gradient-to-r from-indigo-500 via-indigo-200 to-indigo-500 w-full bottom-0 z-10`}>
       <div className="bg-gradient-to-r from-indigo-500 text-white">
         <div className='flex items-center justify-between flex-wrap'>
-            <div className='m-auto px-16 py-8'>
+            <div className='px-16 py-8'>
                 <a href="">pchekuri@gitam.in</a>
             </div>
             <div className='m-auto justify-self-center'>
